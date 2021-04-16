@@ -6,44 +6,45 @@ let
   systemPackages = [
     brightnessctl
 
+    nixpkgsMaster.pkgs.keepassxc
     nixpkgsMaster.pkgs.google-chrome-beta
     # nixpkgsUnstable.pkgs.chromium
-    libreoffice
-    zip
-    unzip
-    htop
-    ag
-    ntfs3g
-    alsaUtils
+    nixpkgsUnstable.pkgs.libreoffice
+    nixpkgsUnstable.pkgs.zip
+    nixpkgsUnstable.pkgs.unzip
+    nixpkgsUnstable.pkgs.htop
+    nixpkgsUnstable.pkgs.ag
+    nixpkgsUnstable.pkgs.ntfs3g
+    nixpkgsUnstable.pkgs.alsaUtils
 
     nixpkgsUnstable.pkgs.okular
 
-    pavucontrol
-    conky
+    nixpkgsUnstable.pkgs.pavucontrol
+    nixpkgsUnstable.pkgs.conky
 
-    dunst
-    copyq
-    rofi
-    pasystray
-    scrot
+    nixpkgsUnstable.pkgs.dunst
+    nixpkgsUnstable.pkgs.copyq
+    nixpkgsUnstable.pkgs.rofi
+    nixpkgsUnstable.pkgs.pasystray
+    nixpkgsUnstable.pkgs.scrot
     nixpkgsMaster.pkgs.anki
-    xarchiver
+    nixpkgsUnstable.pkgs.xarchiver
 
     ## misc
-    transmission_gtk
-    feh
-    mpv
-    xclip
-    atool
-    wget
-    gnupg
-    thunderbird
+    nixpkgsUnstable.pkgs.transmission_gtk
+    nixpkgsUnstable.pkgs.feh
+    nixpkgsUnstable.pkgs.mpv
+    nixpkgsUnstable.pkgs.xclip
+    nixpkgsUnstable.pkgs.atool
+    nixpkgsUnstable.pkgs.wget
+    nixpkgsUnstable.pkgs.gnupg
+    nixpkgsUnstable.pkgs.thunderbird
     # psmisc
 
-    ranger
+    nixpkgsUnstable.pkgs.ranger
     # nixpkgsMaster.pkgs.termite
     nixpkgsMaster.pkgs.kitty
-    neovim
+    nixpkgsUnstable.pkgs.neovim
     tmux
     vscode
     # nixpkgsUnstable.pkgs.nix
@@ -203,7 +204,7 @@ let
     nixpkgsUnstable.pkgs.solargraph
 
     mypkgs.easy-purescript-nix-automatic.spago
-    mypkgs.easy-purescript-nix-automatic.purs-0-14
+    mypkgs.easy-purescript-nix-automatic.purs
     mypkgs.easy-purescript-nix-automatic.purty # find ./packages/client/src -name "*.purs" -exec purty --write {} \;
     nixpkgsMaster.pkgs.sd
 

@@ -51,14 +51,15 @@ rec {
   dleyna-renderer.enable = false;
   dleyna-server.enable = false;
   safeeyes.enable = false;
+  # nextcloud-client.enable = true;
 
   # zfs.autoScrub.enable = true;
 
-  redshift = {
-    enable = true;
-    temperature.night = 3000;
-    brightness.night = "0.5";
-  };
+  # redshift = {
+  #   enable = true;
+  #   temperature.night = 3000;
+  #   brightness.night = "0.5";
+  # };
 
   acpid = {
     enable = true;

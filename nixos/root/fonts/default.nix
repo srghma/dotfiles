@@ -22,8 +22,16 @@ rec {
     font-awesome-ttf
     source-code-pro
     noto-fonts
+    noto-fonts-cjk
+    noto-fonts-emoji
     emojione
     kanji-stroke-order-font
+    ipafont
+
+    liberation_ttf
+    mplus-outline-fonts
+    dina-font
+    proggyfonts
 
     # (pkgs.nixpkgsMaster.pkgs.iosevka.override {
     #   set = "custom";
