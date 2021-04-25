@@ -21,7 +21,7 @@ docker-ruby () {
     --name "$(basename $PWD)-ruby" \
     -v `pwd`:/usr/src/app \
     -w /usr/src/app \
-    starefossen/ruby-node:latest \
+    ruby:latest \
     "$@"
 }
 
