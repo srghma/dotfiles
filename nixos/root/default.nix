@@ -230,7 +230,7 @@ in
 
       allowedTCPPorts = [
         # 5432
-        3000
+        34567 # MY PORT FOR WIFI USE
       ];
 
       allowedUDPPorts = [
