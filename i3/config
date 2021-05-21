@@ -116,7 +116,7 @@ bindsym XF86MonBrightnessDown exec "sudo xbacklight -10"
 bindsym XF86MonBrightnessUp   exec "sudo xbacklight +10"
 
 bindsym XF86TouchpadToggle    exec switch_touchpad
-bindsym Print                 exec "scrot /home/srghma/Pictures/%Y%m%d%Tscreenshot.png"
+bindsym Print                 exec "scrot /home/srghma/Pictures/%Y-%m-%d-%I%P-%M-%S-screenshot.png"
 # bindsym XF86Display         exec "arandr"
 # bindsym $mod+e              exec $terminal -e "alsamixer"
 

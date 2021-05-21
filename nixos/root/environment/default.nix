@@ -57,7 +57,7 @@ let
 
     # nixpkgsUnstable.pkgs.mplayer
 
-    nixpkgsUnstable.pkgs.nodejs-14_x
+    nixpkgsUnstable.pkgs.nodejs-16_x
 
     # netcat-openbsd # nc -U /var/run/acpid.socket
     lsof
@@ -202,6 +202,7 @@ let
     # nixpkgsUnstable.pkgs.ib-tws
     # nixpkgsUnstable.pkgs.ib-controller
     nixpkgsUnstable.pkgs.solargraph
+    nixpkgsUnstable.pkgs.awscli2
 
     mypkgs.easy-purescript-nix-automatic.spago
     mypkgs.easy-purescript-nix-automatic.purs
