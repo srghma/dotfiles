@@ -1,5 +1,5 @@
 # from https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/common-aliases/common-aliases.plugin.zsh
-unalias fd
+# unalias fd
 
 eval "$(direnv hook zsh)"
 

@@ -10,6 +10,14 @@
   call dein#add('Shougo/dein.vim')
 "}}}
 
+set encoding=utf-8
+set fenc=utf-8
+scriptencoding utf-8
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
 let s:cache_dir = '~/.config/nvim/.cache'
 let s:settings = {}
 let s:settings.default_indent = 2
@@ -917,3 +925,43 @@ autocmd BufRead,BufNewFile *.agda setf agda
 
 " nmap g[ 0ciw1<ESC>
 " nmap g] 0kyiwjciw<M-p><ESC>
+
+imap a1 ā
+imap a2 á
+imap a3 ǎ
+imap a4 à
+imap a5 a
+imap e1 ē
+imap e2 é
+imap e3 ě
+imap e4 è
+imap e5 e
+imap i1 ī
+imap i2 í
+imap i3 ǐ
+imap i4 ì
+imap i5 i
+imap o1 ō
+imap o2 ó
+imap o3 ǒ
+imap o4 ò
+imap o5 o
+imap u1 ū
+imap u2 ú
+imap u3 ǔ
+imap u4 ù
+imap u5 u
+imap ü1 ǖ
+imap ü2 ǘ
+imap ü3 ǚ
+imap ü4 ǜ
+imap ü5 ü
+imap v1 ǖ
+imap v2 ǘ
+imap v3 ǚ
+imap v4 ǜ
+imap v5 ü
+imap -Ю ->
+imap --- ―――――――――――――――――――――――――――――――
+imap -ur 🡕
+imap -гк 🡕

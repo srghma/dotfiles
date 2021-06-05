@@ -52,6 +52,7 @@ let
     ## development
     git
     gitAndTools.diff-so-fancy
+    gitAndTools.git-lfs
     gitAndTools.git-crypt
     meld
 
@@ -202,7 +203,10 @@ let
     # nixpkgsUnstable.pkgs.ib-tws
     # nixpkgsUnstable.pkgs.ib-controller
     nixpkgsUnstable.pkgs.solargraph
+    nixpkgsUnstable.pkgs.fontforge
     nixpkgsUnstable.pkgs.awscli2
+    nixpkgsUnstable.pkgs.amazon-ecs-cli
+    nixpkgsUnstable.pkgs.playonlinux
 
     mypkgs.easy-purescript-nix-automatic.spago
     mypkgs.easy-purescript-nix-automatic.purs

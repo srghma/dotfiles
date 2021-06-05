@@ -97,8 +97,8 @@ in
 
   programs = {
     gnupg.agent.enable = true;
-    gnome-documents.enable = true;
-    seahorse.enable = true;
+    gnome-documents.enable = false;
+    seahorse.enable = false;
     gnome-terminal.enable = false;
 
     java.enable = true;
@@ -246,6 +246,24 @@ in
 
   i18n = {
     defaultLocale = "en_US.UTF-8";
+
+    # inputMethod = {
+    #   enabled = "fcitx5";
+    #   # fcitx5.engines = with pkgs.fcitx-engines; [
+    #   #   rime
+    #   #   # libpinyin
+    #   #   # m17n
+    #   #   # cloudpinyin
+    #   # ];
+
+    #   # enabled = "fcitx";
+    #   # fcitx.engines = with pkgs.fcitx-engines; [
+    #   #   rime
+    #   #   # libpinyin
+    #   #   # m17n
+    #   #   # cloudpinyin
+    #   # ];
+    # };
   };
 
   time.timeZone = "Europe/Kiev";

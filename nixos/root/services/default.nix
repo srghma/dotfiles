@@ -40,13 +40,13 @@ rec {
   compton.enable = true;
   # keybase.enable = true;
 
-  gnome3.gnome-online-accounts.enable = true;
-  gnome3.gnome-user-share.enable = true;
-  gnome3.tracker.enable = true;
-  gnome3.evolution-data-server.enable = true;
+  gnome.gnome-online-accounts.enable = true;
+  gnome.gnome-user-share.enable = true;
+  gnome.tracker.enable = true;
+  gnome.evolution-data-server.enable = true;
+  gnome.tracker-miners.enable = false;
+  # gnome.gnome-keyring.enable = false;
   packagekit.enable = false;
-  # gnome3.gnome-keyring.enable = false;
-  gnome3.tracker-miners.enable = false;
   geoclue2.enable = false;
   dleyna-renderer.enable = false;
   dleyna-server.enable = false;
@@ -92,7 +92,7 @@ rec {
     };
 
     desktopManager = {
-      gnome3.enable = true;
+      gnome.enable = true;
     };
 
     displayManager = {
